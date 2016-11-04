@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>audio test</title>
+</head>
+<body>
+    <h1>HTML5 audio标签 版本</h1>
+    <audio controls="controls" id="audio">
+        <source src="/music/5.ogg" type="audio/ogg" />
+        <source src="/music/5.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+    </audio>
+
+    <br>
+    <a href="/">JS Audio版播放器</a>
+    <script>
+        var audio = document.querySelector('#audio');
+    </script>
+</body>
+</html>

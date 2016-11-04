@@ -21,9 +21,8 @@
     "webpack": "^1.13.2"
   },
   "dependencies": {
-    "audio-player-es6": "^1.0.2",
+    "audio-player-es6": "^1.0.4",
     "babel-cli": "^6.9.0",
-    "babel-polyfill": "^6.9.1",
     "babel-preset-es2015-node5": "^1.2.0",
     "co-views": "^2.1.0",
     "ejs": "^2.5.1",
