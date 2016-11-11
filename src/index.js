@@ -3,7 +3,7 @@
 import Player from 'audio-player-es6';
 
 var audio = new Player();
-audio.src(['/music/5.ogg','/music/5.mp3','/music/1.mp3','/music/4.mp3'])
+audio.src(['/music/3.mp3','/music/5.mp3','/music/1.mp3','/music/4.mp3'])
 .src('hjk.mpg').src('/music/3.mp3').src('/music/4.mp3')
 .setCallBack({
 	loading: function(state , player){
